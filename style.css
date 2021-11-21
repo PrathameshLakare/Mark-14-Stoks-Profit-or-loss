@@ -1,0 +1,73 @@
+body{
+  text-align: center;
+  margin: 0rem 4rem;
+}
+h1{
+  text-align: center;
+  color: white;
+  background-color: rgba(29, 26, 26, 0.952);
+  margin: 1rem 6rem;
+  padding: 1.5rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  border-radius: 1rem;
+}
+label{
+  display: block;
+  font-size: larger;
+  margin: 1rem 0px;
+  font-weight: 600;
+}
+input{
+  font-size: large;
+  display: block;
+  outline: black;
+  padding: 0.6rem 1rem;
+  margin: 1rem auto;
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 325px;
+}
+#submit-button{
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+  color: white;
+  background-color: rgba(29, 26, 26, 0.952);
+  font-size: large;
+  cursor: pointer;
+  outline: #fff;
+  margin: auto;
+  display: block;
+}
+#output-box{
+  font-size: x-large;
+  margin: 1rem 0rem;
+}
+.footer {
+    background-color: rgba(29, 26, 26, 0.952);
+    padding: 1rem 0rem;
+    text-align: center;
+    color:white;
+    border-radius: 1rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 6rem;
+    right: 6rem;
+    margin: 0rem 3rem;
+} 
+.footer .link{
+    color:white;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
